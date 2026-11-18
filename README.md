@@ -19,7 +19,7 @@ Formula syntax:
     (phi)                grouping
 ```
 
-Precedence, strongest first: unary operators, \Utl, \land, \lor.
+Precedence (strongest first): unary operators, `\Utl`, `\land`, `\lor`.
 Until is right-associative; conjunction and disjunction are left-associative.
 Derived operators are expanded during parsing, without simplification;
 The displayed formula shows the expanded core syntax. Implication must
