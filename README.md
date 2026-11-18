@@ -48,8 +48,8 @@ With `-n N`, the alphabet is exactly `{0}, ..., {N}`, inclusive.
 After the classes, print the formula's accepting finite and infinite
 idempairs, i.e. $\alpha_\mathrm{cip}(E_\phi)$. Finite words use strong next; the
 empty word is excluded for every formula. Infinite words use ordinary LTL.
-Without --word1/--word2, repeatedly prompt "Word:" after these listings.
-Each input word is classified immediately; quit or EOF ends the session.
-The --word1/--word2 options retain the optional batch comparison mode.
+Without `--word1`/`--word2`, repeatedly prompt "`Word:`" after these listings.
+Each input word is classified immediately; `quit` or EOF ends the session.
+The `--word1`/`--word2` options retain the optional batch comparison mode.
 The printed transition table is an exact description of each class:
-Ck contains precisely the words whose run from C0 ends in Ck.
+`Ck` contains precisely the words whose run from `C0` ends in `Ck`.
